@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata. Cite the associated article separately when its publication details are available."
+type: software
+title: "Injection moulding capability twin: cushion capability forecasting"
+authors:
+  - family-names: Hdid
+    given-names: Mohammed
+  - family-names: Jebari
+    given-names: Hakim
+  - family-names: Samadi
+    given-names: Hassan
+repository-code: "https://github.com/MohammedHdid/injection-molding-capability-twin"
+abstract: "Research code and a saved analysis notebook for state-conditioned cushion forecasting and capability assessment in injection moulding, with an illustrative synthetic data generator. The industrial input dataset is not included."
+keywords:
+  - injection moulding
+  - cushion monitoring
+  - digital twin
+  - capability forecasting
+  - predictive uncertainty

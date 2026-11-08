@@ -1,0 +1,15 @@
+# Python 3.12 recommended, matching the saved research environment.
+# Recorded package versions; this is not a complete environment lockfile.
+numpy==2.0.2
+pandas==2.2.2
+torch==2.11.0
+scikit-learn==1.6.1
+scipy==1.16.3
+statsmodels==0.14.6
+shap==0.52.0
+# Versions below were not recorded in the saved environment output.
+matplotlib
+ipywidgets
+ipython
+# google.colab is provided by Google Colab; see README for local setup.
+# The standalone generator needs only numpy and pandas.
