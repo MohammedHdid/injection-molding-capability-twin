@@ -30,13 +30,13 @@ Use Python 3.10 or newer. From the repository root:
 
 ```bash
 python -m pip install numpy pandas
-python scripts/synthetic_cushion_generator.py --out synthetic_cushion.csv --verify
+python Scripts/synthetic_cushion_generator.py --out synthetic_cushion.csv --verify
 ```
 
 The default generator produces 25,767 synthetic rows. For a smaller example:
 
 ```bash
-python scripts/synthetic_cushion_generator.py --n-cycles 5000 --seed 42 --out synthetic_cushion.csv
+python Scripts/synthetic_cushion_generator.py --n-cycles 5000 --seed 42 --out synthetic_cushion.csv
 ```
 
 The output is a semicolon-separated CSV with day-first timestamps. The generator uses illustrative stochastic assumptions and reference summary statistics; its verification output is a diagnostic comparison, not evidence that it reproduces the industrial dataset or manuscript findings.
@@ -86,8 +86,14 @@ The study concerns cushion monitoring in a single industrial case. Cushion capab
 
 ## Citation
 
-Use GitHub's “Cite this repository” option, based on `CITATION.cff`. This metadata cites the software, not a published journal article. No article DOI or acceptance status is claimed. Once a release is archived, its version, release date and DOI can be added to the citation metadata. Cite the article separately when its publication details are available.
+The initial research release, **v1.0.0**, was archived on Zenodo on **8 November 2026**:
+
+**DOI: [10.5281/zenodo.24060142](https://doi.org/10.5281/zenodo.24060142)**
+
+Hdid, M., Jebari, H., & Samadi, H. (2026). *Injection moulding capability twin: cushion capability forecasting* (v1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24060142
+
+Use GitHub's “Cite this repository” option, based on `CITATION.cff`. This DOI identifies the archived software release, not a journal article. Cite the article separately when its publication details are available. The `main` branch can contain later documentation updates; use the archived release when referring to v1.0.0.
 
 ## Licence
 
-The repository code and documentation are offered under the MIT licence, except `scripts/synthetic_cushion_generator.py`, which retains its existing **CC0-1.0** dedication. See `LICENSE` and the generator header. No rights to the industrial dataset are granted by these software licences.
+The repository code and documentation are offered under the MIT licence, except `Scripts/synthetic_cushion_generator.py`, which retains its existing **CC0-1.0** dedication. See `LICENSE` and the generator header. No rights to the industrial dataset are granted by these software licences.
