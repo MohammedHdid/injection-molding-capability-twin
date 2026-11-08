@@ -12,8 +12,8 @@ The notebook investigates cushion forecasting and conditional capability assessm
 
 | Path | Purpose |
 | --- | --- |
-| `notebooks/cushion_capability_forecasting.ipynb` | Analysis code with saved research outputs and figures |
-| `scripts/synthetic_cushion_generator.py` | Standalone synthetic cushion data generator |
+| `Notebooks/cushion_capability_forecasting.ipynb` | Analysis code with saved research outputs and figures |
+| `Scripts/synthetic_cushion_generator.py` | Standalone synthetic cushion data generator |
 | `requirements.txt` | Python dependencies for the notebook |
 | `CITATION.cff` | Citation metadata for this software |
 | `LICENSE` | MIT licence, with an explicit CC0 exception for the generator |
