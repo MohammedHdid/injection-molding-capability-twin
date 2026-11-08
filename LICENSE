@@ -23,7 +23,7 @@ SOFTWARE.
 Scope and exception
 -------------------
 The MIT licence above applies to repository code and documentation except
-scripts/synthetic_cushion_generator.py. That generator retains its existing
+Scripts/synthetic_cushion_generator.py. That generator retains its existing
 CC0 1.0 Universal (CC0-1.0) dedication, as indicated in its header:
 https://creativecommons.org/publicdomain/zero/1.0/legalcode
 
